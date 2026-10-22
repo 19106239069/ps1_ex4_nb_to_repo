@@ -1,0 +1,16 @@
+[workspace]
+authors = ["Mark <zubritskas@gmail.com>"]
+channels = ["conda-forge"]
+name = "ps1_ex4_nb_to_repo"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.13.*"
+pandas = ">=3.0.6,<4"
+scikit-learn = ">=1.9.1,<2"
+matplotlib = ">=3.11.2,<4"
+seaborn = ">=0.13.2,<0.14"
+ipykernel = ">=7.4.0,<8"
